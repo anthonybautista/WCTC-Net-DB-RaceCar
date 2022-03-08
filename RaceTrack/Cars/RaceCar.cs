@@ -29,6 +29,8 @@ namespace RaceTrack.RaceTrack.Cars
         }
 
         public abstract void StartEngine();
+        
+        public abstract void StopEngine();
 
         public virtual void Brake()
         {
